@@ -24,3 +24,8 @@ header ul li:last-child a{
 	margin-right: 0;
 }
 /*header end*/
+/*newsletter*/
+.newsletter input:focus,.newsletter button:focus{
+	outline: none;
+	box-shadow: none;
+}
