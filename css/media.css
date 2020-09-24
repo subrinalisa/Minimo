@@ -1,32 +1,66 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-.getaway h2{
-	font-size: 28px;
-}	
+    .menu ul li a {
+        padding: 8px 0 0 !important;
+    }
+    .getaway {
+        padding: 50px 0;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .single {
+        margin-bottom: 50px;
+    }
+    .newsletter {
+        padding: 50px 0;
+        margin-bottom: 50px;
+    }
+    .load_more button {
+        font-size: 18px;
+        width: 120px;
+        height: 50px;
+    }
+    footer {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .social {
+        margin-top: 16px;
+    }
 }
-
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-	
+    .menu ul li a {
+        padding: 8px 0 0 !important;
+    }
+    .getaway {
+        padding: 50px 0;
+    }
+    .title {
+        font-size: 25px;
+    }
+    .single {
+        margin-bottom: 50px;
+    }
+    .newsletter {
+        padding: 50px 0;
+        margin-bottom: 50px;
+    }
+    footer {
+        margin-top: 50px;
+    }
 }
-
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-.width75{
-	width: 75%;
+    .menu ul li a {
+        padding: 8px 0 0 !important;
+    }
+    .title {
+        font-size: 25px;
+    }
 }
-}
-
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {
-.width75{
-	width: 75%;
-}	
-}
-
+@media (min-width: 992px) and (max-width: 1199.98px) {}
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {	
-.width75{
-	width: 75%;
-}
-}
+@media (min-width: 1200px) {}

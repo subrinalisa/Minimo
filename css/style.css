@@ -1,31 +1,113 @@
-/*commons*/
-body{
-	font-family: 'Playfair Display', serif;
-	font-weight: 400;
-	color: #626262;
-}
-.fontubuntu{
-	font-family: 'Ubuntu', sans-serif;
-	font-weight: 300;
-	color: #b4ad9e;
-}
-.p100{
-	padding: 100px 0;
-}
-.bggray{
-	background: #f0f0f0;
+body {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
 }
 /*header start*/
-header ul li a{
-	font-family: 'Playfair Display', serif;
-	margin-right: 30px;
+header {
+    padding: 15px 0;
 }
-header ul li:last-child a{
-	margin-right: 0;
+.menu ul li a {
+    color: #626262 !important;
+    text-transform: uppercase;
+    padding: 0 50px !important;
+    transition: 0.3s ease;
+}
+.menu ul li a:hover {
+    color: #000 !important;
+}
+.menu ul li:last-child a {
+    padding-right: 0 !important;
 }
 /*header end*/
-/*newsletter*/
-.newsletter input:focus,.newsletter button:focus{
-	outline: none;
-	box-shadow: none;
+/*getaway start*/
+.getaway {
+    padding: 100px 0;
+}
+.subtitle {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin: 0;
+}
+.title {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+.g_content p {
+    margin-bottom: 20px;
+}
+/*getaway end*/
+/*blog start*/
+.blog {}
+.single {
+    margin-bottom: 100px;
+}
+/*blog end*/
+/*newsletter start*/
+.newsletter {
+    background: #f0f0f0;
+    padding: 100px 0;
+    margin-bottom: 100px;
+}
+.signup h2 {
+    margin-bottom: 50px;
+}
+.signup input,
+.signup input:focus,
+.signup input:hover {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    padding-right: 35px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid;
+    border-radius: 0;
+    box-shadow: none;
+    position: relative;
+}
+.signup button,
+.signup button:focus {
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-shadow: none;
+}
+/*newsletter end*/
+/*load more*/
+.load_more button {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    width: 160px;
+    height: 60px;
+    border: 1px solid #626262;
+    border-radius: 0;
+    transition: 0.3s ease;
+}
+.load_more button:focus {
+    box-shadow: none;
+}
+.load_more button:hover {
+    color: #fff;
+    background-color: #626262;
+}
+/*footer start*/
+footer {
+    background: #f0f0f0;
+    padding: 30px 0;
+    margin-top: 100px;
+}
+footer ul li a,
+footer ul li a:hover {
+    color: #000;
+    text-decoration: none;
+}
+.social ul li a {
+    color: #626262;
+    font-size: 18px;
+    padding: 0 5px;
 }
